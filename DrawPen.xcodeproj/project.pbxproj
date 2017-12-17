@@ -251,7 +251,7 @@
 				TargetAttributes = {
 					24412E5B1E70A11E002A8A0C = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					24412E641E70A11F002A8A0C = {
@@ -260,10 +260,12 @@
 					};
 					24412E7F1E70A76B002A8A0C = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					24412E8F1E70A76C002A8A0C = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 24412E7F1E70A76B002A8A0C;
 					};
@@ -499,7 +501,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -520,7 +523,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -559,7 +563,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -572,7 +577,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -586,7 +592,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPenApp.app/Contents/MacOS/DrawPenApp";
 			};
 			name = Debug;
@@ -601,7 +608,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPenApp.app/Contents/MacOS/DrawPenApp";
 			};
 			name = Release;
@@ -625,6 +633,7 @@
 				24412E721E70A11F002A8A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24412E731E70A11F002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenTests" */ = {
 			isa = XCConfigurationList;
@@ -633,6 +642,7 @@
 				24412E751E70A11F002A8A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24412E971E70A76C002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenApp" */ = {
 			isa = XCConfigurationList;
@@ -641,6 +651,7 @@
 				24412E991E70A76C002A8A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24412E9A1E70A76C002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenAppTests" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +660,7 @@
 				24412E9C1E70A76C002A8A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
