@@ -10,6 +10,14 @@
 		24412E661E70A11F002A8A0C /* DrawPen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24412E5C1E70A11E002A8A0C /* DrawPen.framework */; };
 		24412E6B1E70A11F002A8A0C /* DrawPenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24412E6A1E70A11F002A8A0C /* DrawPenTests.swift */; };
 		24412E6D1E70A11F002A8A0C /* DrawPen.h in Headers */ = {isa = PBXBuildFile; fileRef = 24412E5F1E70A11E002A8A0C /* DrawPen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24412E771E70A162002A8A0C /* Curves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24412E761E70A162002A8A0C /* Curves.swift */; };
+		24412E7B1E70A62C002A8A0C /* CurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24412E7A1E70A62C002A8A0C /* CurveView.swift */; };
+		24412E831E70A76B002A8A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24412E821E70A76B002A8A0C /* AppDelegate.swift */; };
+		24412E851E70A76B002A8A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24412E841E70A76B002A8A0C /* ViewController.swift */; };
+		24412E871E70A76B002A8A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24412E861E70A76B002A8A0C /* Assets.xcassets */; };
+		24412E8A1E70A76B002A8A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24412E881E70A76B002A8A0C /* Main.storyboard */; };
+		24412E951E70A76C002A8A0C /* DrawPenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24412E941E70A76C002A8A0C /* DrawPenAppTests.swift */; };
+		24412E9F1E70AEC5002A8A0C /* DrawPen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24412E5C1E70A11E002A8A0C /* DrawPen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +28,13 @@
 			remoteGlobalIDString = 24412E5B1E70A11E002A8A0C;
 			remoteInfo = DrawPen;
 		};
+		24412E911E70A76C002A8A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24412E531E70A11E002A8A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24412E7F1E70A76B002A8A0C;
+			remoteInfo = DrawPenApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +44,17 @@
 		24412E651E70A11F002A8A0C /* DrawPenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24412E6A1E70A11F002A8A0C /* DrawPenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPenTests.swift; sourceTree = "<group>"; };
 		24412E6C1E70A11F002A8A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24412E761E70A162002A8A0C /* Curves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curves.swift; sourceTree = "<group>"; };
+		24412E7A1E70A62C002A8A0C /* CurveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurveView.swift; path = ../CurveView.swift; sourceTree = "<group>"; };
+		24412E801E70A76B002A8A0C /* DrawPenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawPenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24412E821E70A76B002A8A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24412E841E70A76B002A8A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24412E861E70A76B002A8A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24412E891E70A76B002A8A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24412E8B1E70A76C002A8A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24412E901E70A76C002A8A0C /* DrawPenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24412E941E70A76C002A8A0C /* DrawPenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPenAppTests.swift; sourceTree = "<group>"; };
+		24412E961E70A76C002A8A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24412E7D1E70A76B002A8A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24412E9F1E70AEC5002A8A0C /* DrawPen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24412E8D1E70A76C002A8A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +96,8 @@
 			children = (
 				24412E5E1E70A11E002A8A0C /* DrawPen */,
 				24412E691E70A11F002A8A0C /* DrawPenTests */,
+				24412E811E70A76B002A8A0C /* DrawPenApp */,
+				24412E931E70A76C002A8A0C /* DrawPenAppTests */,
 				24412E5D1E70A11E002A8A0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +107,8 @@
 			children = (
 				24412E5C1E70A11E002A8A0C /* DrawPen.framework */,
 				24412E651E70A11F002A8A0C /* DrawPenTests.xctest */,
+				24412E801E70A76B002A8A0C /* DrawPenApp.app */,
+				24412E901E70A76C002A8A0C /* DrawPenAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +116,10 @@
 		24412E5E1E70A11E002A8A0C /* DrawPen */ = {
 			isa = PBXGroup;
 			children = (
+				24412E7A1E70A62C002A8A0C /* CurveView.swift */,
 				24412E5F1E70A11E002A8A0C /* DrawPen.h */,
 				24412E601E70A11E002A8A0C /* Info.plist */,
+				24412E761E70A162002A8A0C /* Curves.swift */,
 			);
 			path = DrawPen;
 			sourceTree = "<group>";
@@ -84,6 +131,27 @@
 				24412E6C1E70A11F002A8A0C /* Info.plist */,
 			);
 			path = DrawPenTests;
+			sourceTree = "<group>";
+		};
+		24412E811E70A76B002A8A0C /* DrawPenApp */ = {
+			isa = PBXGroup;
+			children = (
+				24412E821E70A76B002A8A0C /* AppDelegate.swift */,
+				24412E841E70A76B002A8A0C /* ViewController.swift */,
+				24412E861E70A76B002A8A0C /* Assets.xcassets */,
+				24412E881E70A76B002A8A0C /* Main.storyboard */,
+				24412E8B1E70A76C002A8A0C /* Info.plist */,
+			);
+			path = DrawPenApp;
+			sourceTree = "<group>";
+		};
+		24412E931E70A76C002A8A0C /* DrawPenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				24412E941E70A76C002A8A0C /* DrawPenAppTests.swift */,
+				24412E961E70A76C002A8A0C /* Info.plist */,
+			);
+			path = DrawPenAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +204,41 @@
 			productReference = 24412E651E70A11F002A8A0C /* DrawPenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		24412E7F1E70A76B002A8A0C /* DrawPenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24412E971E70A76C002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenApp" */;
+			buildPhases = (
+				24412E7C1E70A76B002A8A0C /* Sources */,
+				24412E7D1E70A76B002A8A0C /* Frameworks */,
+				24412E7E1E70A76B002A8A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPenApp;
+			productName = DrawPenApp;
+			productReference = 24412E801E70A76B002A8A0C /* DrawPenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24412E8F1E70A76C002A8A0C /* DrawPenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24412E9A1E70A76C002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenAppTests" */;
+			buildPhases = (
+				24412E8C1E70A76C002A8A0C /* Sources */,
+				24412E8D1E70A76C002A8A0C /* Frameworks */,
+				24412E8E1E70A76C002A8A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24412E921E70A76C002A8A0C /* PBXTargetDependency */,
+			);
+			name = DrawPenAppTests;
+			productName = DrawPenAppTests;
+			productReference = 24412E901E70A76C002A8A0C /* DrawPenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,11 +251,21 @@
 				TargetAttributes = {
 					24412E5B1E70A11E002A8A0C = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					24412E641E70A11F002A8A0C = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+					};
+					24412E7F1E70A76B002A8A0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					24412E8F1E70A76C002A8A0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24412E7F1E70A76B002A8A0C;
 					};
 				};
 			};
@@ -162,6 +275,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 24412E521E70A11E002A8A0C;
 			productRefGroup = 24412E5D1E70A11E002A8A0C /* Products */;
@@ -170,6 +284,8 @@
 			targets = (
 				24412E5B1E70A11E002A8A0C /* DrawPen */,
 				24412E641E70A11F002A8A0C /* DrawPenTests */,
+				24412E7F1E70A76B002A8A0C /* DrawPenApp */,
+				24412E8F1E70A76C002A8A0C /* DrawPenAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +305,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24412E7E1E70A76B002A8A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24412E871E70A76B002A8A0C /* Assets.xcassets in Resources */,
+				24412E8A1E70A76B002A8A0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24412E8E1E70A76C002A8A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,6 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24412E7B1E70A62C002A8A0C /* CurveView.swift in Sources */,
+				24412E771E70A162002A8A0C /* Curves.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +341,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24412E7C1E70A76B002A8A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24412E851E70A76B002A8A0C /* ViewController.swift in Sources */,
+				24412E831E70A76B002A8A0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24412E8C1E70A76C002A8A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24412E951E70A76C002A8A0C /* DrawPenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,7 +366,23 @@
 			target = 24412E5B1E70A11E002A8A0C /* DrawPen */;
 			targetProxy = 24412E671E70A11F002A8A0C /* PBXContainerItemProxy */;
 		};
+		24412E921E70A76C002A8A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24412E7F1E70A76B002A8A0C /* DrawPenApp */;
+			targetProxy = 24412E911E70A76C002A8A0C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24412E881E70A76B002A8A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24412E891E70A76B002A8A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		24412E6E1E70A11F002A8A0C /* Debug */ = {
@@ -317,6 +484,7 @@
 		24412E711E70A11F002A8A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -330,6 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -337,6 +506,7 @@
 		24412E721E70A11F002A8A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +527,7 @@
 		24412E741E70A11F002A8A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DrawPenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -369,12 +540,69 @@
 		24412E751E70A11F002A8A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DrawPenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24412E981E70A76C002A8A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawPenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24412E991E70A76C002A8A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawPenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24412E9B1E70A76C002A8A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawPenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPenApp.app/Contents/MacOS/DrawPenApp";
+			};
+			name = Debug;
+		};
+		24412E9C1E70A76C002A8A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawPenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = megal.DrawPenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPenApp.app/Contents/MacOS/DrawPenApp";
 			};
 			name = Release;
 		};
@@ -403,6 +631,22 @@
 			buildConfigurations = (
 				24412E741E70A11F002A8A0C /* Debug */,
 				24412E751E70A11F002A8A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24412E971E70A76C002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24412E981E70A76C002A8A0C /* Debug */,
+				24412E991E70A76C002A8A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24412E9A1E70A76C002A8A0C /* Build configuration list for PBXNativeTarget "DrawPenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24412E9B1E70A76C002A8A0C /* Debug */,
+				24412E9C1E70A76C002A8A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

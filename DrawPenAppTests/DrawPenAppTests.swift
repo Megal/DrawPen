@@ -1,15 +1,15 @@
 //
-//  DrawPenTests.swift
-//  DrawPenTests
+//  DrawPenAppTests.swift
+//  DrawPenAppTests
 //
 //  Created by Svyatoshenko "Megal" Misha on 2017-03-08.
 //  Copyright © 2017 Megal. All rights reserved.
 //
 
 import XCTest
-//@testable import DrawPen
+@testable import DrawPenApp
 
-class DrawPenTests: XCTestCase {
+class DrawPenAppTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
